@@ -29,7 +29,7 @@ _bs4 = '<li class="page-item">\
 _bulma = (
     '<a class="pagination-previous" href={0} aria-label="Previous">{1}</a>'
 )
-_materialize = '<li class="waves-effect"><a href={0}><i class="material-icons">chevron_left/i></a></li>'
+_materialize = '<li class="waves-effect"><a href="{0}"><i class="material-icons">chevron_left/i></a></li>'
 
 PREV_PAGES = dict(
     bootstrap=_bs,
@@ -51,7 +51,7 @@ _bs4 = '<li class="page-item">\
 <span aria-hidden="true">{1}</span>\
 <span class="sr-only">Next</span></a></li>'
 _bulma = '<a class="pagination-next" href={0} aria-label="Next">{1}</a>'
-_materialize = '<li class="waves-effect"><a href={0}><i class="material-icons">chevron_right</i></a></li>'
+_materialize = '<li class="waves-effect"><a href="{0}"><i class="material-icons">chevron_right</i></a></li>'
 NEXT_PAGES = dict(
     bootstrap=_bs,
     bootstrap2=_bs,
@@ -88,7 +88,7 @@ LINK = '<li><a href="{0}">{1}</a></li>'
 SEMANTIC_LINK = '<a class="item" href="{0}">{1}</a>'
 BS4_LINK = '<li class="page-item"><a class="page-link" href="{0}">{1}</a></li>'
 BULMA_LINK = '<li><a class="pagination-link" href={0}>{1}</a></li>'
-MATERIALIZE_LINK = '<li><a class="waves-effect" href={0}>{1}</a></li>'
+MATERIALIZE_LINK = '<li><a class="waves-effect" href="{0}">{1}</a></li>'
 
 _bs = '<li class="disabled"><a>...</a></li>'
 _bs33 = '<li class="disabled"><span>\
