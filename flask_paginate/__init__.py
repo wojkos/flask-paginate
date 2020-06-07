@@ -40,7 +40,7 @@ PREV_PAGES = dict(
     semantic='<a class="item arrow" href="{0}">{1}</a>',
     foundation='<li class="arrow"><a href="{0}">{1}</a></li>',
     bulma=_bulma,
-    materialize=materialize
+    materialize=_materialize
 )
 
 _bs = '<li class="next"><a href="{0}">{1}</a></li>'
@@ -61,7 +61,7 @@ NEXT_PAGES = dict(
     semantic='<a class="item arrow" href="{0}">{1}</a>',
     foundation='<li class="arrow"><a href="{0}">{1}</a></li>',
     bulma=_bulma,
-    materialize=materialize
+    materialize=_materialize
 )
 
 _bs = '<li class="active"><a>{0}</a></li>'
@@ -81,7 +81,7 @@ CURRENT_PAGES = dict(
     semantic='<a class="item active">{0}</a>',
     foundation='<li class="current"><a>{0}</a></li>',
     bulma=_bulma,
-    materialize=materialize
+    materialize=_materialize
 )
 
 LINK = '<li><a href="{0}">{1}</a></li>'
@@ -107,7 +107,7 @@ GAP_MARKERS = dict(
     semantic=_se,
     foundation=_fa,
     bulma=_bulma,
-    materialize=materialize
+    materialize=_materialize
 )
 
 _bs = '<li class="previous disabled unavailable"><a> {0} </a></li>'
@@ -128,7 +128,7 @@ PREV_DISABLED_PAGES = dict(
     semantic=_se,
     foundation=_fa,
     bulma=_bulma,
-    materialize=materialize
+    materialize=_materialize
 )
 
 _bs = '<li class="next disabled"><a> {0} </a></li>'
@@ -149,7 +149,7 @@ NEXT_DISABLED_PAGES = dict(
     semantic=_se,
     foundation=_fa,
     bulma=_bulma,
-    materialize=materialize
+    materialize=_materialize
 )
 
 PREV_LABEL = "&laquo;"
