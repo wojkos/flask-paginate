@@ -29,7 +29,7 @@ _bs4 = '<li class="page-item">\
 _bulma = (
     '<a class="pagination-previous" href={0} aria-label="Previous">{1}</a>'
 )
-_materialize = '<li class="waves-effect"><a href="{0}"><i class="material-icons">chevron_left/i></a></li>'
+_materialize = '<li class="waves-effect"><a href="{0}"><i class="material-icons">chevron_left</i></a></li>'
 
 PREV_PAGES = dict(
     bootstrap=_bs,
